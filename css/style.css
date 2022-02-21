@@ -1,0 +1,21 @@
+.pageHeader {
+    text-align: center;
+    color: tan
+}
+
+body {
+    background-color: #6f4e37;
+}
+
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.shop {
+    border: solid tan 2px;
+    padding: 1em;
+    margin: 0.5em;
+	flex: 0 1 26%;
+}
