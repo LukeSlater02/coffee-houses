@@ -19,23 +19,36 @@ body {
     color: #FFFDD0;
     padding: .5em;
     margin: 0.5em;
-	flex: 0 0 26%;
-    text-align: center;
+    flex: 0 1 30% 
 }
 
 .shop-name {
-
     font-weight: bold;
     text-decoration-line: underline;
     font-size: larger;
+    display: inline-flex;
+    height: 21px;
+    white-space: nowrap;
 }
 
 .shop-links {
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
 }
 
 .shop-links a {
     color:white
+}
+
+.list img {
+    width:80px;
+    height:80px;
+
+    margin-left:80px;
+    margin-right: auto;
+}
+
+.shop-address {
+    font-style: italic;
+    max-width: 200px;
 }
