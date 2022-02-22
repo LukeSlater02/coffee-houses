@@ -15,11 +15,14 @@ body {
 }
 
 .shop {
+    display: flex;
     border: solid tan 2px;
     color: #FFFDD0;
     padding: .5em;
     margin: 0.5em;
-    flex: 0 1 30% 
+    flex: 0 1 30%;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .shop-name {
@@ -40,12 +43,9 @@ body {
     color:white
 }
 
-.list img {
+.shop-image img{
     width:80px;
     height:80px;
-
-    margin-left:80px;
-    margin-right: auto;
 }
 
 .shop-address {
